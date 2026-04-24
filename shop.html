@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.7">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;title&gt;Shop - ALORA&lt;/title&gt;</p>
+<p class="p1">&lt;link rel="stylesheet" href="css/style.css"&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h1&gt;Shop&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;nav&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="index.html"&gt;Home&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="shop.html"&gt;Shop&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;a href="contact.html"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/nav&gt;</p>
+<p class="p1">&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="products"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="product"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="images/product.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;1 Jar Aloe Gel&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;PKR 300&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="add(300,'1 Jar')"&gt;Add&lt;/button&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="product"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;img src="images/product.jpg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;h2&gt;3 Jars Bundle&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;p&gt;PKR 750&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;button onclick="add(750,'Bundle')"&gt;Add&lt;/button&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;div class="cart"&gt;</p>
+<p class="p1">Items: &lt;span id="count"&gt;0&lt;/span&gt;&lt;br&gt;</p>
+<p class="p1">Total: PKR &lt;span id="total"&gt;0&lt;/span&gt;</p>
+<p class="p1">&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">let total = 0;</p>
+<p class="p1">let count = 0;</p>
+<p class="p2"><br></p>
+<p class="p1">function add(price){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>total += price;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>count++;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("total").innerText = total;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>document.getElementById("count").innerText = count;</p>
+<p class="p1">}</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
